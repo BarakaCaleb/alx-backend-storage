@@ -41,4 +41,3 @@ if __name__ == '__main__':
     print("IPs:")
     for ip in nginx.aggregate(pipeline):
         print("\t{}: {}".format(ip["_id"], ip["sum"]))
-        
